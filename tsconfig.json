@@ -17,14 +17,26 @@
     "target": "es2020",
     "module": "es2020",
     "paths": {
-      "fuehrerwesen": [
-        "dist/fuehrerwesen"
-      ],
       "infrastructure": [
         "dist/infrastructure"
       ],
       "systemwesen": [
         "dist/systemwesen"
+      ],
+      "systemwesen-modules": [
+        "dist/systemwesen-modules"
+      ],
+      "systemwesen-modules/*": [
+        "dist/systemwesen-modules/*"
+      ],
+      "fuehrerwesen": [
+        "dist/fuehrerwesen"
+      ],
+      "fuehrerwesen-modules": [
+        "dist/fuehrerwesen-modules"
+      ],
+      "fuehrerwesen-modules/*": [
+        "dist/fuehrerwesen-modules/*"
       ]
     },
     "lib": [
